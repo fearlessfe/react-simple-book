@@ -2,8 +2,8 @@ import { CHANGE_INPUT_VALUE, ADD_TODO_ITEM, DELETE_TODO_ITEM} from './actionType
 
 
 const defaultState = {
-  inputValue: 'hehe',
-  list: [1, 2]
+  inputValue: '',
+  list: []
 }
 export default (state = defaultState, action) => {
   if(action.type === CHANGE_INPUT_VALUE) {
