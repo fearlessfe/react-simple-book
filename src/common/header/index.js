@@ -11,7 +11,8 @@ import {
   Addition,
   Button,
   SearchWrapper,
-  SearchInfo
+  SearchInfo,
+  SearchInfoTitle
 } from './style'
 
 const Header = (props) => {
@@ -39,7 +40,11 @@ const Header = (props) => {
               ></NavSearch>
             </CSSTransition>
             <i className={focused ? 'focused iconfont' : 'iconfont' }>&#xe614;</i>
-            <SearchInfo></SearchInfo>
+            <SearchInfo>
+              <SearchInfoTitle>
+
+              </SearchInfoTitle>
+            </SearchInfo>
           </SearchWrapper>
         </Nav>
         <Addition>

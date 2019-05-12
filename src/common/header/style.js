@@ -132,3 +132,11 @@ export const SearchInfo = styled.div`
   padding: 0 20px;
   box-shadow: 0 0 8px rgba(0,0,0,.2)
 `
+
+export const SearchInfoTitle = styled.div`
+  margin-top: 20px
+  margin-bottom: 15px;
+  line-height: 20px
+`
+
+
